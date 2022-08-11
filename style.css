@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  background: #f4f3f8;
+}
+body {
+  margin: 10px;
+  margin-top: 20px;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+
+#navbarMonstera {
+  display: grid;
+  grid-template-columns: 1fr 3fr 0.8fr;
+  align-items: center;
+}
+#navFirst img {
+  height: 40px;
+}
+
+#navFirst {
+  display: flex;
+  /* border: 3px solid black; */
+  padding-left: 40px;
+}
+#navFirst div {
+  padding-left: 20px;
+}
+#navMid {
+  display: flex;
+  /* border: 3px solid black; */
+}
+
+#navMid div {
+  padding-left: 80px;
+}
+#navMid div h4 {
+  font-size: 20px;
+}
+#navEnd {
+  display: flex;
+  /* border: 3px solid black; */
+}
+
+#navEnd div {
+  padding-left: 30px;
+}
+
+#midWhole {
+  display: grid;
+  grid-template-columns: 1fr 0.7fr;
+}
+
+#midWholePart13 {
+  /* display: flex;
+  font-size: 10px; */
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.midWholePart13Parts {
+  display: flex;
+}
+
+.midWholePart13Parts div img {
+  height: 50px;
+}
+
+#midWholePart11 {
+  margin-left: 30px;
+  margin-top: 150px;
+  font-family: "Allerta";
+}
+
+#midWholePart11 div ul h1 {
+  font-size: 110px;
+}
+
+#midWholePart11 div ul :nth-child(3) {
+  margin-right: 70px;
+}
+
+#midWholePart11 div ul :nth-child(4) {
+  margin-right: 70px;
+}
+
+#midWholePart12 div {
+  display: flex;
+}
+
+#midWholePart1 {
+  margin-top: 30px;
+}
+
+#midWholePart12 {
+  margin-top: 50px;
+  margin-right: 500px;
+  margin-left: 30px;
+  padding: 10px 30px;
+  border-radius: 40px;
+  font-family: "Allerta";
+  background: #466d50;
+}
+
+#midWholePart121 div h1,
+#midWholePart121 div img {
+  background: #466d50;
+  color: #fff;
+  font-weight: 0px;
+  font-size: 30px;
+}
+
+#midWholePart121 div img {
+  height: 30px;
+  text-decoration: none;
+  color: black;
+  margin-left: 15px;
+  margin-top: 6px;
+}
+
+#midWholePart121 div {
+  background: #466d50;
+  font-weight: 0px;
+}
+
+#midWholePart13 {
+  margin-top: 120px;
+  margin-left: 40px;
+  font-family: "Allerta";
+  font-size: 12px;
+  padding: 5px;
+}
+
+#midWhole div #imgMain {
+  height: 100%;
+}
+
+#midWholePart13 h4 {
+  font-size: 15px;
+}
